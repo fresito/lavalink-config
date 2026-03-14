@@ -55,7 +55,7 @@ plugins:
       yandexmusic: false
     spotify:
       clientId: "e1afc6b673e1493d8deecc2c339eef7b"
-      clientSecret: "TON_NOUVEAU_SECRET_ICI"
+      clientSecret: "e1afc6b673e1493d8deecc2c339eef7b"
       countryCode: "FR"
 
 metrics:
