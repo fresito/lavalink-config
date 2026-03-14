@@ -1,7 +1,6 @@
 server:
   port: 2333
   address: 0.0.0.0
-
 lavalink:
   server:
     password: "MionaBot2024"
@@ -35,13 +34,11 @@ lavalink:
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     gc-warnings: true
-
   plugins:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.2"
       snapshot: false
     - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.3.0"
       snapshot: false
-
 plugins:
   lavasrc:
     providers:
@@ -54,18 +51,15 @@ plugins:
       deezer: false
       yandexmusic: false
     spotify:
-      clientId: "e1afc6b673e1493d8deecc2c339eef7b"
+      clientId: "303d66fcd6c9471d9704262d97333afc"
       clientSecret: "e1afc6b673e1493d8deecc2c339eef7b"
       countryCode: "FR"
-
 metrics:
   prometheus:
     enabled: false
     endpoint: /metrics
-
 sentry:
   dsn: ""
-
 logging:
   file:
     path: ./logs/
